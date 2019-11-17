@@ -4,6 +4,7 @@ var express = require('express'),
     mongoose = require('mongoose'),
     Task = require('./api/models/todoListModel'),
     bodyParser = require('body-parser');
+#yet to understand all these code
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://192.168.33.20:27017/Tododb');
